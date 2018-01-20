@@ -35,12 +35,12 @@ permissions:
 
   duels.default:
     children:
-      duels.duel: true
+      duels.duel: false
       duels.stats: true
       duels.toggle: true
 
   duels.admin:
     children:
       duels.default: true
-      duels.spectate: true
+      duels.spectate: false
       duels.spectate.anonymously: true
